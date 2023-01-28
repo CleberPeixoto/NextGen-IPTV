@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+ header {
+    display: flex;
+    justify-content: center;
+ }
+
+ .logo{
+    font-size: xx-large;
+    color: red;
+ }
+
+ .logo span {
+    color: aqua;
+
+ }
+
+ .area2 {
+    color: red;
+ }
+
+ .area1 {
+    color: aqua;
+ }
+
+ .espaco {
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ .cta {
+    color: rgb(251, 255, 4);
+ }
+
+ .section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
+
+ .area-title h3 {
+    color: white;
+    font-weight: normal;
+ }
+
+ .area-title h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -15px;
+ } 
+
+ .area-title a {
+    display: inline-block;
+    background-color: red;
+    padding: 15px 60px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    
+ } 
+
+ .area-title a:hover{
+    background-color: white;
+    color: red;
+ }
+
+ .image1 img {
+    width: 450px;
+    height: 280px;
+    border-radius: 23%;
+    padding: 20px;
+}
+
+/*area cards*/
+
+
+
+.section-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.section-cards h2 {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card img {
+    display: flex;
+    width: 250px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+   
+}
+
+.card a {
+    
+    display: inline-block;
+    background-color: red;
+    padding: 15px 60px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.card a:hover {
+    background-color: white;
+    color: red;
+    border: solid red;
+}
+
+@media (max-width: 765px) {
+    /* regras CSS */
+    .image1 img {
+        width: 250px;
+        height: auto;
+        border-radius: 15%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .area-title h3 {
+        color: white;
+        font-weight: normal;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .area-title h1 {
+        color: white;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 1px;
+        margin-left: 25px;
+    }
+
+    .area-title a {
+        font-size: 10px;
+        padding: 10px 45px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .card img {
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+   
+    }
+
+    .card a {
+       margin: 9%;
+    }
+    
+
+}
