@@ -60,6 +60,7 @@ body {
  } 
 
  .area-title a {
+    text-align: center;
     display: inline-block;
     background-color: red;
     padding: 15px 60px;
